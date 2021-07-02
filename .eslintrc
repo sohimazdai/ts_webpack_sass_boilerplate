@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ]
+  },
+  "env": {
+    "es6": true
+  }
+}
