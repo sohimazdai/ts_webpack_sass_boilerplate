@@ -1,5 +1,5 @@
 {
-  "name": "ts-webpack-ssr",
+  "name": "ts-webpack-ssr-boilerplate",
   "version": "1.0.1",
   "scripts": {
     "build": "webpack",

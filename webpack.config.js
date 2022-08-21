@@ -34,4 +34,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   plugins: [new HtmlWebpackPlugin({ template: 'src/index.html' })],
+  devServer: {
+    port: 3000
+  }
 };
