@@ -7,7 +7,7 @@ This boilerplate can help you to set up project with **Typescript**, **React**, 
 **node** version  `v16.17.0`
 **npm** version `8.15.0`
 
-!!!note Use [nvm](https://google.com) to change your own version if the instructions below do not lead to a correct installation
+###### Use [nvm](https://google.com) to change your own version if the instructions below do not lead to a correct installation
 
 #### Install deps
 `npm ci` or `npm i`
