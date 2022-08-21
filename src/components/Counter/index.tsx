@@ -4,7 +4,7 @@ interface State {
   stops: Date[];
 }
 
-export default class Measures extends React.Component<{}, State> {
+export default class Counter extends React.Component<{}, State> {
   state: State = {
     stops: [],
   };
@@ -13,15 +13,15 @@ export default class Measures extends React.Component<{}, State> {
 
   render: () => JSX.Element = () => {
     return (
-      <div className="measures_container">
-        <h1 className="measures_title">Training</h1>
-        <p className="measures_description">There are {this.state.stops.length} stops</p>
-        <button className="measures_button" onClick={this.addMeasure}>
+      <div className="counter_container">
+        <h1 className="counter_title">Training</h1>
+        <p className="counter_description">There are {this.state.stops.length} stops</p>
+        <button className="counter_button" onClick={this.addMeasure}>
           Add measure
         </button>
-        <ol className="measures_list">
+        <ol className="counter_list">
           {this.state.stops.map((m: Date): JSX.Element => (
-            <li key={m.getTime()} className="measures_listItem">
+            <li key={m.getTime()} className="counter_listItem">
               {m.toLocaleTimeString()}
             </li>
           ))}

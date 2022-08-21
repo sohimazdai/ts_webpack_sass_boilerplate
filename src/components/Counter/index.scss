@@ -1,19 +1,19 @@
-.measures_container {
+.counter_container {
   width: 100%;
   height: 100%;
 }
 
-.measures_title {
+.counter_title {
   margin: 0;
   padding-top: 20px;
 }
 
-.measures_description {
+.counter_description {
   margin: 0;
   margin-top: 12px;
 }
 
-.measures_button {
+.counter_button {
   background-color: #fff;
   border-radius: 5px;
   padding: 5px;
@@ -34,13 +34,13 @@
   }
 }
 
-.measures_list {
+.counter_list {
   margin-top: 8px;
   padding: 8px;
   border-radius: 5px;
 }
 
-.measures_listItem {
+.counter_listItem {
   font-size: 16px;
   color: black;
   transition: 0.2s all;

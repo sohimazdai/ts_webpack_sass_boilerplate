@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import './index.scss';
 
-import Measures from './components/Counter';
+import Counter from './components/Counter';
 
-const domContainer = document.querySelector('[data-id=measures]');
-ReactDOM.render(<Measures />, domContainer);
+const domContainer = document.querySelector('[data-id=counter]');
+ReactDOM.render(<Counter />, domContainer);
